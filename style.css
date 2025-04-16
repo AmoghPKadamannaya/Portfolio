@@ -1,0 +1,100 @@
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f4f6f9;
+  color: #333;
+}
+
+.hero {
+  background: linear-gradient(135deg, #004e92 0%, #000428 100%);
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem 3rem;
+}
+
+.hero .overlay {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.hero h1 span {
+  color: #FFDE59;
+}
+
+.hero .subtitle {
+  font-size: 1.15rem;
+  color: #e0e0e0;
+}
+
+.container {
+  max-width: 820px;
+  margin: auto;
+  padding: 2rem;
+  animation: fadeIn 1.2s ease-in;
+}
+
+section {
+  margin-top: 2.5rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-4px);
+}
+
+video {
+  width: 100%;
+  border-radius: 10px;
+  margin: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.cert-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.cert-list li {
+  margin: 0.75rem 0;
+  font-size: 1rem;
+}
+
+.cert-list a {
+  text-decoration: none;
+  color: #004e92;
+  transition: all 0.2s ease;
+}
+
+.cert-list a:hover {
+  color: #FFDE59;
+  text-shadow: 0 0 2px #004e92;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+footer a {
+  color: #004e92;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(15px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
